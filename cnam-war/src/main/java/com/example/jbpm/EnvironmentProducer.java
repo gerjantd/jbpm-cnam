@@ -30,10 +30,10 @@ public class EnvironmentProducer {
 //	@KReleaseId(groupId = "com.example", artifactId = "cnam-kjar", version = "1.0.0")
 //	private KieBase kbase;
 
-	@Produces
-	public EntityManagerFactory getEntityManagerFactory() {
-		return this.emf;
-	}
+//	@Produces
+//	public EntityManagerFactory getEntityManagerFactory() {
+//		return this.emf;
+//	}
 
 //	@Produces
 //	public org.kie.api.task.UserGroupCallback produceSelectedUserGroupCalback() {

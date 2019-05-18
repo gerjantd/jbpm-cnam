@@ -19,7 +19,7 @@ public class CNAMServiceImpl implements CNAMService {
 	@Override
 	public String sayHelloTo(final String name) {
 		jBPMService.poke(name);
-		return "Hello " + name);
+		return "Hello " + name;
 	}
 
 }
