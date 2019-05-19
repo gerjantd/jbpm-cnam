@@ -31,11 +31,11 @@ public class JBPMServiceImpl implements JBPMService {
 
 	@Override
 	public void poke() {
-		poke(JBPMConstant.PROCESS_ID);
+		pokeById(JBPMConstant.PROCESS_ID);
 	}
 
 	@Override
-	public void poke(String processId) {
+	public void pokeById(String processId) {
 		// Map<String, Object> params = new HashMap<String, Object>();
 		// params.put("name", name);
 		DeploymentUnit deploymentUnit = new KModuleDeploymentUnit(JBPMConstant.GROUP, JBPMConstant.ARTIFACT,

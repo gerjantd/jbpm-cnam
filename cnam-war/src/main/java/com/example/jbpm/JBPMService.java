@@ -4,6 +4,6 @@ public interface JBPMService {
 
 	void poke();
 
-	void poke(String processId);
+	void pokeById(String processId);
 
 }

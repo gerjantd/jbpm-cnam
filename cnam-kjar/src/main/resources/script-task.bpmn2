@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_HFeJUHjqEemTqp3E74FLng" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
-  <bpmn2:process id="Evaluation.cnam-simple" drools:packageName="org.jbpm" drools:version="1.0" name="cnam-simple" isExecutable="true">
+  <bpmn2:process id="maestro.script-task" drools:packageName="org.jbpm" drools:version="1.0" name="script-task" isExecutable="true">
     <bpmn2:startEvent id="processStartEvent" drools:selectable="true" color:background-color="#9acd32" color:border-color="#000000" color:color="#000000" name="">
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
@@ -32,7 +32,7 @@
     <bpmn2:sequenceFlow id="_51FAFCBF-D7AD-47B5-A529-600BD6E0EA63" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_DCD3F2DE-6699-4642-9036-6E9C4C10CF5C" targetRef="_C7E63B50-9EA1-40CF-8B92-F260FFA22961"/>
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="_HFeJUnjqEemTqp3E74FLng">
-    <bpmndi:BPMNPlane id="_HFeJU3jqEemTqp3E74FLng" bpmnElement="Evaluation.cnam-simple">
+    <bpmndi:BPMNPlane id="_HFeJU3jqEemTqp3E74FLng" bpmnElement="maestro.script-task">
       <bpmndi:BPMNShape id="_HFeJVHjqEemTqp3E74FLng" bpmnElement="processStartEvent">
         <dc:Bounds height="30.0" width="30.0" x="120.0" y="165.0"/>
       </bpmndi:BPMNShape>
