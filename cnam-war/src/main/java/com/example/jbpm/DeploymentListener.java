@@ -2,6 +2,7 @@ package com.example.jbpm;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.event.Observes;
+
 import org.jbpm.services.api.DeploymentEvent;
 import org.jbpm.services.cdi.Deploy;
 import org.jbpm.services.cdi.Undeploy;
